@@ -1,0 +1,40 @@
+{
+  "updated": "2026-11-16",
+  "cities": [
+    { "id": "graz", "de": "Graz", "en": "Graz" },
+    { "id": "wien", "de": "Wien", "en": "Vienna" },
+    { "id": "linz", "de": "Linz", "en": "Linz" },
+    { "id": "salzburg", "de": "Salzburg", "en": "Salzburg" },
+    { "id": "innsbruck", "de": "Innsbruck", "en": "Innsbruck" }
+  ],
+  "venues": [
+    { "id": "postgarage", "city": "graz", "name": "Postgarage", "street": "Dreihackengasse 42", "zip": "8020", "genres": ["techno", "house", "party"], "url": "https://www.postgarage.at/" },
+    { "id": "ppc", "city": "graz", "name": "ppc – Project Pop Culture", "street": "Neubaugasse 6", "zip": "8020", "genres": ["pop", "rock", "party"], "url": "https://www.popculture.at/" },
+    { "id": "orpheum", "city": "graz", "name": "Orpheum", "street": "Orpheumgasse 8", "zip": "8020", "genres": ["pop", "rock"], "url": "https://spielstaetten.buehnen-graz.com/" },
+    { "id": "domimberg", "city": "graz", "name": "Dom im Berg", "street": "Schloßbergplatz 1", "zip": "8010", "genres": ["pop", "techno", "party"], "url": "https://spielstaetten.buehnen-graz.com/" },
+    { "id": "kottulinsky", "city": "graz", "name": "Kottulinsky", "street": "Beethovenstraße 9", "zip": "8010", "genres": ["house", "hiphop", "party"], "url": "https://www.kottulinsky.at/" },
+    { "id": "explosiv", "city": "graz", "name": "Explosiv", "street": "Bahnhofgürtel 55a", "zip": "8020", "genres": ["rock"], "url": "https://www.explosiv.at/" },
+
+    { "id": "grelleforelle", "city": "wien", "name": "Grelle Forelle", "street": "Spittelauer Lände 12", "zip": "1090", "genres": ["techno", "house", "dnb"], "url": "https://www.grelleforelle.com/" },
+    { "id": "daswerk", "city": "wien", "name": "Das Werk", "street": "Spittelauer Lände 12", "zip": "1090", "genres": ["techno", "rave"], "url": "https://www.daswerk.org/" },
+    { "id": "flex", "city": "wien", "name": "Flex", "street": "Augartenbrücke 1", "zip": "1010", "genres": ["techno", "dnb", "rock"], "url": "https://flex.at/" },
+    { "id": "u4", "city": "wien", "name": "U4", "street": "Schönbrunner Straße 222", "zip": "1120", "genres": ["party", "pop", "student"], "url": "https://www.u4.at/" },
+    { "id": "volksgarten", "city": "wien", "name": "Volksgarten", "street": "Burgring 1", "zip": "1010", "genres": ["house", "hiphop", "party"], "url": "https://volksgarten.at/" },
+    { "id": "sass", "city": "wien", "name": "SASS Music Club", "street": "Karlsplatz 1", "zip": "1010", "genres": ["house", "techno"], "url": "https://sassvienna.com/" },
+    { "id": "fluc", "city": "wien", "name": "Fluc", "street": "Praterstern 5", "zip": "1020", "genres": ["techno", "pop", "rock"], "url": "https://www.fluc.at/" },
+    { "id": "chelsea", "city": "wien", "name": "Chelsea", "street": "Lerchenfelder Gürtel, U-Bahnbögen 29–30", "zip": "1080", "genres": ["rock", "pop"], "url": "https://www.chelsea.co.at/" },
+
+    { "id": "stwst", "city": "linz", "name": "Stadtwerkstatt", "street": "Kirchengasse 4", "zip": "4040", "genres": ["pop", "rock", "techno"], "url": "https://stwst.at/" },
+    { "id": "posthof", "city": "linz", "name": "Posthof", "street": "Posthofstraße 43", "zip": "4020", "genres": ["pop", "rock", "hiphop"], "url": "https://www.posthof.at/" },
+    { "id": "kapu", "city": "linz", "name": "KAPU", "street": "Kapuzinerstraße 36", "zip": "4020", "genres": ["rock", "hiphop", "techno"], "url": "https://www.kapu.or.at/" },
+
+    { "id": "rockhouse", "city": "salzburg", "name": "Rockhouse Salzburg", "street": "Schallmooser Hauptstraße 46", "zip": "5020", "genres": ["rock", "pop", "hiphop"], "url": "https://www.rockhouse.at/" },
+    { "id": "argekultur", "city": "salzburg", "name": "ARGEkultur", "street": "Ulrike-Gschwandtner-Straße 5", "zip": "5020", "genres": ["pop", "hiphop", "party"], "url": "https://www.argekultur.at/" },
+    { "id": "citybeats", "city": "salzburg", "name": "City Beats", "street": "Griesgasse 23", "zip": "5020", "genres": ["house", "hiphop", "party"], "url": "https://www.citybeats.at/" },
+
+    { "id": "treibhaus", "city": "innsbruck", "name": "Treibhaus", "street": "Angerzellgasse 8", "zip": "6020", "genres": ["pop", "hiphop", "festival"], "url": "https://www.treibhaus.at/" },
+    { "id": "pmk", "city": "innsbruck", "name": "p.m.k", "street": "Viaduktbogen 18–20", "zip": "6020", "genres": ["rock", "techno", "festival"], "url": "https://www.pmk.or.at/" },
+    { "id": "musichall", "city": "innsbruck", "name": "Music Hall Innsbruck", "street": "Grabenweg 74", "zip": "6020", "genres": ["rock", "hiphop", "party"], "url": "https://www.music-hall.at/" },
+    { "id": "baeckerei", "city": "innsbruck", "name": "Die Bäckerei – Kulturbackstube", "street": "Dreiheiligenstraße 21a", "zip": "6020", "genres": ["pop", "party"], "url": "https://www.diebaeckerei.at/" }
+  ]
+}
