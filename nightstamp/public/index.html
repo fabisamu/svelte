@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nightstamp – Clubs und Events in Graz, Wien, Linz, Salzburg und Innsbruck</title>
+<meta name="description" content="Was geht heute Abend? Nightstamp zeigt Clubs und Events in Graz, Wien, Linz, Salzburg und Innsbruck. Mit KI-Assistent. Ab 16 Jahren.">
+<meta name="theme-color" content="#0E1030">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/styles.css">
+<script src="/legal.js" defer></script>
+<script src="/app.js" defer></script>
+</head>
+<body>
+<div class="wrap" id="page">
+  <header class="top">
+    <button type="button" class="brand" id="brand" data-action="discover">Nightstamp</button>
+    <div class="seg" role="group" id="langGroup" aria-label="Sprache">
+      <button type="button" id="langDe" data-action="lang" data-lang="de" aria-pressed="true">DE</button>
+      <button type="button" id="langEn" data-action="lang" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+  <p class="demo" id="demoNote"></p>
+  <main id="app"></main>
+  <footer class="foot" id="foot"></footer>
+</div>
+<button type="button" class="aifab" id="aifab" data-action="ai" hidden></button>
+<nav class="bar" id="bar" aria-label="Hauptmenü">
+  <div class="barin">
+    <button type="button" class="navbtn" id="nav-discover" data-action="discover"></button>
+    <button type="button" class="navprem" id="nav-premium" data-action="premium"></button>
+    <button type="button" class="navbtn" id="nav-account" data-action="account"></button>
+  </div>
+</nav>
+<div id="layer"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p>Nightstamp braucht JavaScript. Impressum und Datenschutzerklärung findest du nach dem Einschalten von JavaScript unten auf der Seite.</p></noscript>
+</body>
+</html>
